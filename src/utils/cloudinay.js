@@ -22,4 +22,4 @@ cloudinary.v2.uploader.upload('',
     {public_id : 'flag'},
     function(err, result) {console.log(result)}
 )
-export {cloudinary}
+export {uploadOnCloudinary}
